@@ -1,7 +1,9 @@
-import tkinter as tk
+from tkinter import *
+from tkinter.ttk import * 
 
-m = tk.Tk()
+home_screen = Tk().geometry('900x600')
 
-w = tk.Button(text='yeet', command=m.destroy)
-w.pack()
-m.mainloop()
+deck_creator_btn = Button(text="Deck Creator", width=20, height=10)
+deck_creator_btn.pack()
+
+mainloop()
